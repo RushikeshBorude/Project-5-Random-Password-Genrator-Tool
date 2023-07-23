@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Chela One", cursive;
+
+}
+H1{
+    text-align: center;
+color: rgb(221, 210, 49);
+}
+
+input:focus-visible {
+  outline: 0;
+}
+
+.main {
+  background-image: url(https://img.freepik.com/free-vector/neon-frames-collection_52683-71807.jpg?w=740&t=st=1689152861~exp=1689153461~hmac=71020e40aa1f7eecdea99aac1d3c0fafdcfe5857c60c768ad1324db28f42cce8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  min-width: 400px;
+  padding: 20px;
+  box-shadow: 10px 10px 90px rgb(169, 141, 214);
+  background-image: linear-gradient(rgb(121, 69, 232), rgb(67, 55, 195));
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#pass-box {
+  width: 100%;
+  display: block;
+  background-image: linear-gradient(rgb(213, 232, 69), rgb(228, 195, 94));
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+}
+
+label {
+  user-select: none;
+}
+input {
+  cursor: pointer;
+}
+
+#btn {
+  width: 100%;
+  font-size: 20px;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  background-image: linear-gradient(rgb(172, 232, 69), rgb(141, 228, 94));
+  font-family: "Chela One", cursive;
+  color: black;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
